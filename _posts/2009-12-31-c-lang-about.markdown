@@ -2,7 +2,7 @@
 layout: post
 title: 《C语言解惑》小笔记 
 published: true
-tags: 随笔 记事
+tags: C C++
 ---
 
 
@@ -12,7 +12,7 @@ tags: 随笔 记事
 
 - 宏越简单越好。如果无法得到一个简单的宏，就应该把它定义成一个函数。
  
-{% highlight c++ lineno  %}
+{% highlight c  %}
 
 char *c[]={"ENTER","NEW","POINT","FIRST"};
 char **cp[]={c+3,c+2,c+1,c};
