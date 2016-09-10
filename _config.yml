@@ -11,5 +11,7 @@ twitter_username: anbenqishi
 github_username:  anbenqishi
 
 # Build settings
+port: 4001
 markdown: kramdown
 highlighter: pygments
+encoding: utf-8
