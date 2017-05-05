@@ -32,7 +32,7 @@ Multi-AS BGP使能每个BGP实例配置不一样的AS号。
     - MDT SAFI, MVPN SAFI && MVPN-specific BGP需要配置在同一个实例节点下。使用者需要确认所有的multicast VRFs配置在同一个实例下。此实例会与multicast进程通信。
     - IPv4 Unicast/IPv4 Labeled-unicast可以在一个实例上，而IPv6 Unicast/IPv6 Labeled-unicast在另一个实例上；
     - 实例间的peer地址必须唯一；
-配置： 
+配置：      
 	**router bgp** *as-number* [**instance** *instance-name*]  
 	**no router bgp** [*as-number*]  
 router# configure  
