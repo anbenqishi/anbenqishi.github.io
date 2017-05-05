@@ -33,10 +33,10 @@ Multi-AS BGP使能每个BGP实例配置不一样的AS号。
     - IPv4 Unicast/IPv4 Labeled-unicast可以在一个实例上，而IPv6 Unicast/IPv6 Labeled-unicast在另一个实例上；
     - 实例间的peer地址必须唯一；
 配置： 
-	**router bgp** *as-number* [**instance** *instance-name*]
-	**no router bgp** [*as-number*]
-router# configure
-router(config)# router bgp 100 instance inst1
+	**router bgp** *as-number* [**instance** *instance-name*]  
+	**no router bgp** [*as-number*]  
+router# configure  
+router(config)# router bgp 100 instance inst1  
 
 ## [Juniper](https://www.juniper.net/techpubs/en_US/junos/topics/reference/configuration-statement/routing-instances-edit.html)
 
