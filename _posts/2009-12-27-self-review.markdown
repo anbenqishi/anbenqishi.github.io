@@ -2,6 +2,7 @@
 layout: post
 title: 年终小结
 published: true
+comments: true
 tags: 随笔 总结
 ---
 
