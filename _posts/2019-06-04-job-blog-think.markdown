@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 最近的想法
-published: true
+published: false
 tags: 随笔 总结
 ---
 
