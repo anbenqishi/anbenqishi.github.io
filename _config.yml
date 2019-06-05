@@ -121,7 +121,7 @@ disqus:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: anbenqishi
-    repo: anbenqishi/anbenqishi.github.io
+    repo: anbenqishi.github.io
     clientID: 2d6dc1917951752a9ea0
     clientSecret: 2a4864a0264d77cf9af6ac1699cb5e14bf07ecd8
 # 在使用其它评论组件时可点击显示 Disqus
