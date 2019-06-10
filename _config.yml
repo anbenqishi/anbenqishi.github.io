@@ -1,35 +1,36 @@
-# Site settings
-title: 胡言乱语
-SEOTitle: Linux | wujg | UDP
-header-img: img/home-bg.jpg
-email: jiangui1987@gmail.com
-description: "或有停留，随遇而安"
-keyword: ""
-url: "http://anbenqishi.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: anbenqishi,github.io
 date_format: "ordinal"
-side_bar_repo_limit: 5
+title: 胡言乱语
+subtitle: "小小黑的个人空间"
+description: "或有停留，随遇而安"
+keywords: Linux, UDP, wujg
 timezone: Asia/Shanghai
+encoding: "utf-8"
+port: 4001
+side_bar_repo_limit: 5
 
-# SNS settings
-RSS: true
-weibo_username:     wujiangui4441
-zhihu_username:     du-er-er
-github_username:    anbenqishi
-twitter_username:  anbenqishi
-
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: wujg
+organization: xmu
+organization_url: www.xmu.end.cn
+github_username: anbenqishi
+location: Fuzhou, China
+email: jiangui1987@gmail.com
 
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-port: 4001
-encoding: utf-8
-
+#permalink: pretty
+#paginate: 10
+#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+#anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 # ---------------- #
 #    Navigation    #
