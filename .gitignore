@@ -1,4 +1,9 @@
 # Folder view configuration files
+*.swp
+*.~vsd
+\#*\#
+*~
+
 .DS_Store
 Desktop.ini
 
@@ -23,3 +28,5 @@ node_modules
 # Jekyll
 .sass-cache
 _site
+
+Gemfile.lock
