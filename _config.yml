@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: anbenqishi.github.io
+url: http://anbenqishi.github.io
 date_format: "ordinal"
 title: 胡言乱语
 subtitle: "小小黑的个人空间"

@@ -2,6 +2,7 @@
 layout: post
 title: jekyll启动问题
 published: true
+categories: blog
 tags: blog jekyll
 ---
 
