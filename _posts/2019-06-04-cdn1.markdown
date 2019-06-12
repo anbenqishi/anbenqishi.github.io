@@ -1,0 +1,23 @@
+---
+layout: post
+title: CDN简介（一）
+published: true
+tags: CDN cache
+---
+
+## Cache选型
+
+目前有`Squid`,`Varnish`,`Nginx(OpenResty)`,`Apache Traffic Server`。
+
+## 性能分析
+
+1. DNS解析时间：从发起域名请求道获得IP的时间
+2. 建连时间：从发起SYN包到SYN/ACK的时间
+3. 首包时间：从客户端发起请求到收到服务端第一个数据包的时间
+4. 内容下载时间：从第一个包收到开始到收完最后一个包的时间
+
+### 问题
+
+1. client拥塞，LDNS太远，LDNS有问题
+2. client拥塞，client到CDN节点太远，CDN调度问题，CDN带宽满
+3. Server磁盘占用高，MISS回源
