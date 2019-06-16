@@ -3,6 +3,7 @@
 layout: post
 title: leetcode-4
 published: true
+categories: Algorithm
 tags: ARTS leetcode algorithm
 
 ---

@@ -3,6 +3,7 @@
 layout: post
 title: 数据库及实例的启动与关闭
 published: true
+categories: SQL
 tags: SQL Oracle
 
 ---
