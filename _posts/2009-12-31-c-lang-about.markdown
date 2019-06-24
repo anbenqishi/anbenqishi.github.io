@@ -2,6 +2,7 @@
 layout: post
 title: 《C语言解惑》小笔记
 published: true
+categories: C/C++
 tags: C C++
 ---
 

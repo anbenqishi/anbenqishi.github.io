@@ -2,6 +2,7 @@
 layout: post
 title: 最近的想法
 published: false
+categories: Misc
 tags: 随笔 总结
 ---
 
