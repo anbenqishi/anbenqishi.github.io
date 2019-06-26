@@ -1,10 +1,11 @@
 ---
 layout: post
-title: [阅读]我们还需要OOP吗？
+title: 【阅读】我们还需要OOP吗？
 published: true
-categories: ARTS OO编程
-tags: ARTS OO编程
+categories: ARTS OO编程  
+tags: ARTS OO编程 
 ---
+
 
 ##  原文
 [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53)
