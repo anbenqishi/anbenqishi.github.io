@@ -1,0 +1,50 @@
+---
+layout: post
+​title: UDP协议优化（二）---- 传输优化考虑
+​published: true
+​categories: UDP
+​tags: Linux C UDP socket
+---
+
+### 概念术语
+
+cwnd：拥塞控制窗口，控制发送端的发送速度。
+
+ss：slow start慢启动，最开始必经的阶段。
+
+ssthresh：slow start threshold，慢启动阈值。控制速率，尽量避免且规避网络拥塞。
+
+SACK：选择性确认。
+
+WScale：滑动窗口递增
+
+SYN cookies：代应答
+
+tcp slow start after idle: 超出阈值会把CWND降为初始值
+
+
+
+## 传输优化
+
+### 建连优化
+
+### 首包优化
+
+首包时间是当你发完http的get请求之后所拿到的第一个数据。
+
+### 平滑发包
+
+### 丢包预测
+
+统计记录，在可能丢包的情况下重发数据。
+
+### RTO探测
+
+### 带宽评估
+
+### 带宽争抢
+
+### 链路质量记忆 
+
+## 参考文献
+
