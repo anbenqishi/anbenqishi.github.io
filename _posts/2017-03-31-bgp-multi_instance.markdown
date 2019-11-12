@@ -2,15 +2,17 @@
 layout: post
 title: BGP多实例
 published: true
-tags: bgp
+tags: bgp network
+categories: network
 ---
 
-[Cisco ASR9000系列路由器支持多BGP实例](http://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k_r5-2/routing/command/reference/b_routing_cr52xasr9k/b_routing_cr52xasr9k_chapter_01.html)。
+## [Cisco ASR9000系列路由器](http://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k_r5-2/routing/command/reference/b_routing_cr52xasr9k/b_routing_cr52xasr9k_chapter_01.html)
 
 每个BGP实例都是一个独立的进程，运行在相同或是不同的RP/DRP节点上。BGP实例维持各自的前缀表，不与其他实例共享。在分布式BGP情况下，不需要一个通用的Adj-RIB-in（bRIB）（**？？**）。实例间不相互通信，也不与对端建立邻居。每个实例都可以单独与其他设备建立邻居。
 
 Multi-AS BGP使能每个BGP实例配置不一样的AS号。
 多实例与多AS BGP提供以下能力：
+
 - 在单台设备上，使用一个通用路由框架，合并多台设备提供的服务；
 - 在不同的BGP实例上使能不能不同的AF，达到隔离地址族的作用；
 - 在不同的BGP实例上分发peer会话，提升会话规模，可以容纳更多的peer会话；
