@@ -5,7 +5,6 @@ title: leetcode-4
 published: true
 categories: Algorithm leetcode
 tags: ARTS leetcode algorithm
-
 ---
 
 ## [problem](https://leetcode.com/problems/median-of-two-sorted-arrays/)

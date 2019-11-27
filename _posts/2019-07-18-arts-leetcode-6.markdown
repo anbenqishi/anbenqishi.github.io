@@ -1,6 +1,7 @@
 ---
 layout: post
 title: leetcode-6
+published: true
 categories: Algorithm leetcode
 tags: ARTS algorithm leetcode
 ---

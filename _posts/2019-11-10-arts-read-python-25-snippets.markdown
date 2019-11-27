@@ -1,9 +1,9 @@
 ---
-Layout: post
-Title:【阅读】25个python snippets
-Published: true
-Categories: ARTS python
-Tags: ARTS python
+layout: post
+title:【阅读】25个python snippets
+published: true
+categories: ARTS python
+tags: ARTS python
 ---
 
 ## 原文

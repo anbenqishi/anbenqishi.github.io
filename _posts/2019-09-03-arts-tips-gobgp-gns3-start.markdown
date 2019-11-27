@@ -1,9 +1,9 @@
 ---
-Title: centos中安装gns3&&开跑gobgp?
-Layout: post
+title: centos中安装gns3&&开跑gobgp?
+layout: post
 published: true
-Categories: gobgp 
-Tags: network gobgp 
+categories: gobgp 
+tags: network gobgp 
 ---
 
 自己曾经做过bgp，还用了蛮长的一段时间。先前看到有用go实现bgp的项目，一直想玩，各种耽搁。这次工作刚好又有关联性，就想学习一下gobgp这个项目。一来学习go，之前看过语法一直还没有看过实际项目；二来温习一下bgp协议，同时看看gobgp这个项目实现，与我之前做的项目的差异，取长补短。

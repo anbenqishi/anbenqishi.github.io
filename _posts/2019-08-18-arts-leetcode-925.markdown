@@ -1,6 +1,7 @@
 ---
 layout: post
 title: leetcode-925
+published: true
 categories: Algorithm leetcode
 tags: algorithm leetcode ARTS
 ---

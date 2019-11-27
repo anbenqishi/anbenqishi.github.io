@@ -1,9 +1,9 @@
 ---
-Layout: post
-Title: 【阅读】学习Python：从0到英雄
-Published: true
-Categories: ARTS python
-Tags: ARTS python
+layout: post
+title: 【阅读】学习Python：从0到英雄
+published: true
+categories: ARTS python
+tags: ARTS python
 ---
 
 ## 原文

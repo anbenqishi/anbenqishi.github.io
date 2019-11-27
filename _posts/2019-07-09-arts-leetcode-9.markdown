@@ -1,6 +1,7 @@
 ---
 layout: post
 title: leetcode-9
+published: true
 categories: Algorithm leetcode
 tags: algorithm leetcode ARTS
 ---
