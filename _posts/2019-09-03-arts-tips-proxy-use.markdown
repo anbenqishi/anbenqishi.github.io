@@ -6,12 +6,6 @@ tags: ARTS tips proxy
 categories: ARTS tips proxy
 ---
 
-这里以Ubuntu为例。
-
-这里主要以Ubuntu为例。
-
-本来没有的事，某些团体硬要让人折腾。这里主要以Ubuntu为例。
-
 1. 首先，你要有ss服务器；本地搞个ss客户端，启动即可，默认我们是启用socks代理；
 
 2. 如果仅仅只是浏览器翻墙，有switchyOmega就好了，可以很好地支持是否代理访问；
@@ -24,7 +18,7 @@ categories: ARTS tips proxy
 
 6. 有用的[list](https://ssr.tools/495)，你懂的：`https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt`
 
-   ### git
+### git
 
    主要是通过git config来配置，在Linux（MacOS）下就是home下的`.gitconfig`文件（windows的自己找找），通过如下配置来实现：
 
@@ -56,7 +50,7 @@ categories: ARTS tips proxy
    git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
    git config --global https.https://github.com.proxy socks5://127.0.0.1:1080
    ```
-   
+
    ### go
 
    我试用了两种方式，貌似都可以：
@@ -74,19 +68,19 @@ categories: ARTS tips proxy
 
    ```bash
 set http_proxy=socks5://127.0.0.1:1080
-   set https_proxy=socks5://127.0.0.1:1080
-```
-   
+set https_proxy=socks5://127.0.0.1:1080
+   ```
+
 都说go会去都这两个变量，我也没去深究...
-   
+
 ### Linux
-   
+
 这里主要是说curl/wget/apt这些命令行命令如何使用代理。
-   
+
    #### curl/wget等
-   
+
    主要问题貌似是不能直接使用ss的socks代理形式，需要转为使用privoxy转换一下，不赘述了，大家看[这篇文章](https://huangweitong.com/229.html)就好了，能实现根据pac来代理，蛮好的。
-   
+
    #### apt
 
    由于我用的是UBUNTU系统，蛋疼的是，某一个仓库貌似只能翻墙上了，于是折腾了下，网上的意见主要就是在`/etc/apt/apt.conf.d/`文件夹下添加一个conf文件，内容大致如下：
@@ -97,20 +91,20 @@ set http_proxy=socks5://127.0.0.1:1080
    Acquire::https::Proxy "http://127.0.0.1:8118";
    Acquire::socks5::Proxy "socks://127.0.0.1:1080";
    ```
-   
+
    配置后会变成对所有的apt网址生效，但是目前没有更好的pac方案（或者我没找到）。
-   
+
    ### pip支持代理
-   
+
    本地是windows7 + pip3环境，参考[stackoverflow其中一个答案成功](https://stackoverflow.com/questions/22915705/how-to-use-pip-with-socks-proxy)：
-   
+
    ```bash
    pip install pysocks
    pip install -r requirements.txt --proxy socks5:127.0.0.1:1080
    ```
+
    
-   
-   
+
    ## 吐槽
-   
+
    我这边网路太慢了，连接代理服务器也是断断续续，导致有些效果估计体现不出来，哭了。
