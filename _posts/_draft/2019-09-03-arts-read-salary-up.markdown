@@ -4,9 +4,11 @@
 
 
 
+## 原文
 
+[How I Doubled my Salary in Five Months and Got an Amazing Job](https://medium.com/complete-coding/how-i-doubled-my-salary-in-5-months-and-got-an-amazing-job-1110d1779e0b)
 
-
+## 概述
 
 1. 辞去了初级JavaScript的前端工作，先旅游再找工作，目标是中级全栈开发。
 2. 考察阶段：目标工作需要什么技能，作者发现大部分的技能要求如下
