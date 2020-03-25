@@ -62,7 +62,7 @@ tags: ARTS go
    
    Go做的这些变化，使之区别于其他语言，有些特点可能不能得到码农的认可。但也不是说丢弃上述特性就写不了代码了。顶多多加几行代码而已。我们可以注意到更积极的一面，代码更干净清晰。
    
-   ![img](/Users/willpower/Documents/GitHub/anbenqishi.github.io/images/posts/go/1*nlpYI256BR71xMBWd1nlfg.png)
+   ![img](/Users/willpower/Documents/GitHub/anbenqishi.github.io/images/posts/go/fastgo.png)
 
 看上图，Go的效率接近与C/C++，语法上如Ruby，Python那样简单。对于码农与处理器来说是个双赢。
 
