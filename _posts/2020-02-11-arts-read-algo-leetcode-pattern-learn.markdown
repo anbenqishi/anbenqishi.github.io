@@ -1,4 +1,10 @@
-
+---
+layout: post
+title:【阅读】应对代码面试的14个模式
+published: true
+categories: ARTS algorithm
+tags: ARTS algorithm
+---
 
 ## 原文
 
@@ -14,4 +20,4 @@
 
 1. 滑动窗口
 
-   
+   TBD
