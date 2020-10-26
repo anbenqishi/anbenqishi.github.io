@@ -83,7 +83,7 @@ git config --list
 
 同事碰到的问题，邮箱忘记改成公司邮箱，结果push上去的是私人邮箱，如何修改？
 
-网上看到都是commit的修改，没有看到已经push上去后再修改的情况。根据[此UP主的说法]([https://blog.sjfkai.com/2019/03/01/Git-%E4%BF%AE%E6%94%B9-Commit-%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%B8%8E%E9%82%AE%E7%AE%B1/](https://blog.sjfkai.com/2019/03/01/Git-修改-Commit-的用户名与邮箱/))：
+网上看到都是commit的修改，没有看到已经push上去后再修改的情况。根据[此UP主的说法](https://blog.sjfkai.com/2019/03/01/Git-修改-Commit-的用户名与邮箱/)：
 
 > 修改 Commit 的用户名或邮箱会生成一个新的 commit 来替换之前的 commit 。如果在修改之前已经 push 到了远端，修改后再次 push 会出现冲突。 只能使用 `push -f`。 如果其他人已经拉取（ pull ）了旧 commit 会出现很多麻烦。
 
