@@ -64,6 +64,14 @@ categories: ARTS tips proxy
 
    你可以写进环境变量中。
 
+windows下powershell设置：
+
+````bash
+$env:GOPROXY = "https://goproxy.io"
+````
+
+
+
    第二种还是[配置如何使用ss]([https://ybilly.com/2018/07/03/go-get%E5%88%A9%E7%94%A8ss%E7%9B%B4%E6%8E%A5%E7%BF%BB%E5%A2%99/](https://ybilly.com/2018/07/03/go-get利用ss直接翻墙/)):
 
    ```bash
