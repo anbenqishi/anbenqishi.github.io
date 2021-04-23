@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【tip】Linux下的代理小结
-published： true
+published: true
 tags: ARTS tips proxy
 categories: ARTS tips proxy
 ---

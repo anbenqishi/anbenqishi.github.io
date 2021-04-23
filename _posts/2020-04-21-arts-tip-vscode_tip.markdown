@@ -1,6 +1,6 @@
 ---
 layout: post
-title:【TIPS】vscode操作若干
+title: 【TIPS】vscode操作若干
 published: true
 categories: ARTS vscode
 tags: ARTS vscode

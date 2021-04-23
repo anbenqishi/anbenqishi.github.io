@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [阅读]如何hack wifi
+title: 【阅读】如何hack wifi
 published: true
 categories: ARTS kali
 tags: ARTS kali

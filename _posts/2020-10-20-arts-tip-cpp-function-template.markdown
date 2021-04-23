@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [TIPS]C++函数模板实例化问题
+title: 【TIPS】C++函数模板实例化问题
 published: true
 categories: C++ ARTS
 tags: C++ ARTS

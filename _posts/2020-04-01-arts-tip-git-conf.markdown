@@ -1,6 +1,6 @@
 ---
 layout: post
-title:【TIPS】git操作若干
+title: 【TIPS】git操作若干
 published: true
 categories: ARTS git
 tags: ARTS git

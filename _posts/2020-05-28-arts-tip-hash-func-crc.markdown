@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [TIPS]CRC hash函数
+title: 【TIPS】CRC hash函数
 published: true
 categories: hash algorithm ARTS
 tags: hash algorithm ARTS

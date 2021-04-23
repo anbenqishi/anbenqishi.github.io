@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [TIPS]identity hash函数
+title: 【TIPS】identity hash函数
 published: true
 categories: hash algorithm ARTS
 tags: hash algorithm ARTS

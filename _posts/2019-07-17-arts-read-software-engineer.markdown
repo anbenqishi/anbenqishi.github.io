@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [阅读]软件工程
+title: 【阅读】软件工程
 published: true
 categories: ARTS reading
 tags: ARTS software_engineer

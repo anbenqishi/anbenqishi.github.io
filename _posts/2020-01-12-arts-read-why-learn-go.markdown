@@ -1,6 +1,6 @@
 ---
 layout: post
-title:【阅读】为什么学习go
+title: 【阅读】为什么学习go
 published: true
 categories: ARTS go
 tags: ARTS go

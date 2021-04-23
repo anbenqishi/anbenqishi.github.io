@@ -1,6 +1,6 @@
 ---
 layout: post
-title:【阅读】25个python snippets
+title: 【阅读】25个python snippets
 published: true
 categories: ARTS python
 tags: ARTS python

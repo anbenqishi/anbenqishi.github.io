@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [TIPS]Linux下git clone代理问题
+title: 【TIPS】Linux下git clone代理问题
 published: true
 categories: git ARTS
 tags: git ARTS

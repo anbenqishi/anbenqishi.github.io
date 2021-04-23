@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [TIPS]一个关于C的小问题
+title: 【TIPS】一个关于C的小问题
 published: true
 categories: C algorithm ARTS
 tags: C algorithm ARTS
