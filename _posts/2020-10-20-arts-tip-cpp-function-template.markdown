@@ -10,7 +10,7 @@ tags: C++ ARTS
 
 库里面定义了一个函数模板，项目中使用这个模板函数，结果编译不过，提示找不到定义。仔细看了库代码，有显式实例化部分函数。而刚好我使用的是另一个未显式实例化的模板类型。直接在文件中显式声明即可顺利编过。
 
-问题是：竟然已经提供模板了，我干嘛还要显式实例化一次，我有没有特定有别于模板的实现。
+问题是：既然已经提供模板了，我干嘛还要显式实例化一次，我又没有特定的，有别于模板的实现。
 
 ### 原因
 
@@ -21,5 +21,6 @@ tags: C++ ARTS
 
 我自己要去实验了一下这个简单的例子，确实如此。在这种情况下，需要显式实例化。
 
+补充：https://stackoverflow.com/questions/2351148/explicit-template-instantiation-when-is-it-used
 
-
+参考：https://docs.microsoft.com/en-us/cpp/cpp/explicit-instantiation
